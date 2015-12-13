@@ -1,0 +1,14 @@
+﻿Build started 13/12/2015 10:42:54 م.
+     1>Project "H:\Projects\cpp-allocator\build\mem-allocator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\inc /Zi /nologo /W3 /WX- /Ox /Oi /Oy- /D NDEBUG /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -std=c++11 ..\src\main.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '-std=c++11'
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\Release\mem-allocator.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\bin\Release\mem-allocator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\Release\mem-allocator.lib" /MACHINE:X86 /SAFESEH obj\Release\main.obj
+         mem-allocator.vcxproj -> H:\Projects\cpp-allocator\build\..\bin\Release\mem-allocator.exe
+     1>Done Building Project "H:\Projects\cpp-allocator\build\mem-allocator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
